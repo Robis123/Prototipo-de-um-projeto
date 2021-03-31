@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Home</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6"
+      crossorigin="anonymous"
+    />
+    <style>
+      .header {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 88px;
+        z-index: 10;
+        -webkit-box-shadow: 0 15px 8px rgba(0, 0, 0, 0.12);
+        -moz-box-shadow: 0 7px 8px rgba(0, 0, 0, 0.12);
+        box-shadow: 0 7px 8px rgba(0, 0, 0, 0.12);
+      }
+
+      #botao:hover {
+        color: rgba(255, 166, 0, 0.973);
+        background-color: #111111;
+        transition: all 1s;
+        border: none;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- -->
+    <header style="width: 100%">
+      <div class="header">
+        <nav
+          class="navbar navbar-expand-lg navbar-light"
+          style="background-color: #bbbbbb; width: 100%"
+        >
+          <a class="navbar-brand" style="margin-left: 5%" href="#"
+            >Brasil Fraterno</a
+          >
+
+          <div class="collapse navbar-collapse p-lg-4" id="navbarNav">
+            <ul class="navbar-nav" style="padding-left: 5%">
+              <li
+                class="nav-item active"
+                style="font-size: 15px; font-weight: bold"
+              >
+                <a class="nav-link" style="margin-right: 15px" href="#">Home</a>
+              </li>
+              <li
+                class="nav-item mr-5"
+                style="font-size: 15px; font-weight: bold"
+              >
+                <a class="nav-link" style="margin-right: 15px" href="#"
+                  >Cadastro de supermercados</a
+                >
+              </li>
+              <li
+                class="nav-item mr-5"
+                style="font-size: 15px; font-weight: bold"
+              >
+                <a class="nav-link" style="margin-right: 15px" href="#"
+                  >Cadastro de doadores</a
+                >
+              </li>
+              <li
+                class="nav-item mr-5"
+                style="font-size: 15px; font-weight: bold"
+              >
+                <a class="nav-link" style="margin-right: 15px" href="#"
+                  >Cadastro de doações</a
+                >
+              </li>
+              <li
+                class="nav-item mr-5"
+                style="font-size: 15px; font-weight: bold"
+              >
+                <a class="nav-link" style="margin-right: 15px" href="#"
+                  >Cadastro de federações</a
+                >
+              </li>
+              <li
+                class="nav-item mr-5"
+                style="font-size: 15px; font-weight: bold"
+              >
+                <button
+                  class="btn btn-dark" id="botao"
+                  style="width: 120px; margin-left: 10%; border-radius: 7px"
+                >
+                  Entrar
+                </button>
+              </li>
+            </ul>
+          </div>
+        </nav>
+      </div>
+    </header>
+    <main>
+      <div
+        class="d-flex justify-content-center align-items-center"
+        style="background-color: black; height: 500px"
+      >
+        <h1 style="color: white">Imagem (hyperlink)</h1>
+      </div>
+      <div
+        class="d-flex justify-content-center align-items-center"
+        style="height: 600px; background-color: teal; margin: 15px 15px"
+      >
+        <h2>Conteúdo do site</h2>
+      </div>
+    </main>
+    <footer>
+      <div
+        class="d-flex justify-content-center align-items-center"
+        style="background-color:#CCCCCC; height: 350px"
+      >
+        <h1 style="color: black">Rodapé</h1>
+      </div>
+    </footer>
+  </body>
+</html>
