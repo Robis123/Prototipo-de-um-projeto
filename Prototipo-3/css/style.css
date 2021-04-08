@@ -1,0 +1,72 @@
+#comofunciona {
+  background-color: #aaaaaa;
+  width: 100%;
+  padding: 48px 111px;
+  height: 200px;
+}
+#svg-map path {
+  fill: #0094d9
+}
+
+#svg-map text {
+  fill: #fff;
+  font: 12px Arial-BoldMT, sans-serif;
+  cursor: pointer
+}
+
+#svg-map a {
+  text-decoration: none
+}
+
+#svg-map a:hover {
+  cursor: pointer;
+  text-decoration: none
+}
+
+#svg-map a:hover path {
+  fill: #003399 !important
+}
+
+#svg-map .circle {
+  fill: #66ccff
+}
+
+#svg-map a:hover .circle {
+  fill: #003399 !important;
+  cursor: pointer
+}
+
+.imagem {
+  height: 500px;
+  width: 100%;
+}
+
+#header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vh;
+  height: 90px;
+  z-index: 10;
+  transition: 0.2s;
+}
+
+#botao:hover {
+  color: rgba(255, 166, 0, 0.973);
+  background-color: #111111;
+  transition: all 1s;
+  border: none;
+}
+
+#botaoresultados {
+  width: 500px;
+  border-radius: 5px;
+}
+
+.fotocesta {
+    max-width:256px;
+    max-height:143.6px;
+    width: auto;
+    height: auto;
+}
+
